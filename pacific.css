@@ -5,6 +5,7 @@ body {
 h1 {
     background-color: #000033;
     color: #FFFFFF;
+    margin-bottom: 0;
 }
 nav {
     background-color: #90C7E3;
