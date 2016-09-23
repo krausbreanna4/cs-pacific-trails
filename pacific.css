@@ -60,7 +60,7 @@ footer {
     font-size: 90%;
 }
 #wrapper {
-    margin: 0;
+    margin: auto;
     width: 80%; 
     min-width: 960px; 
     max-width: 2048px;
