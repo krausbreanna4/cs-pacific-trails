@@ -1,5 +1,7 @@
 body {
-    background-color: #FFFFFF;
+    background-color: #90C7E3;
+    background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+    background-repeat: no-repeat;
     color: #666666;
     font-family: arial, helvetica, sans-serif;
 }
@@ -50,4 +52,16 @@ footer {
 }
 .contact {
     font-size: 90%;
+}
+#wrapper {
+    margin: 0 auto;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    width: 80%; 
+    min-width: 960px; 
+    max-width: 2048px;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px #333333;
 }
