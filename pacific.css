@@ -6,9 +6,9 @@ body {
     font-family: arial, helvetica, sans-serif;
 }
 h1 {
-    margin-bottom: 0 auto;
+    margin-bottom: 0;
     font-family: Georgia, "times new roman", serif;
-    margin-top: 0 auto;
+    margin-top: 0;
 }
 nav {
     background-color: #FFFFFF;
@@ -60,7 +60,7 @@ footer {
     font-size: 90%;
 }
 #wrapper {
-    margin: 0 auto;
+    margin: 0;
     width: 80%; 
     min-width: 960px; 
     max-width: 2048px;
