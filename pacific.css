@@ -225,3 +225,25 @@ main {
 .desktop {
     display: inline;
 }
+table {
+    border: 1px solid #3399CC;
+    width: 80%;
+    border-spacing: 0;
+}
+th {
+    padding: 5px;
+    border: 1px solid #3399CC;
+}
+td {
+    padding: 5px;
+    border: 1px solid #3399CC;
+    text-align: center;
+}
+
+#text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color:#F5FAFC;
+}
