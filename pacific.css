@@ -218,11 +218,11 @@ main {
     }
 }
 
-.mobile {
+#mobile {
     display: none;
 }
 
-.desktop {
+#desktop {
     display: inline;
 }
 table {
@@ -240,7 +240,7 @@ td {
     text-align: center;
 }
 
-#text {
+.text {
     text-align: left;
 }
 
