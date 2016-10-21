@@ -69,10 +69,6 @@ main ul {
     list-style-image: url(images/marker.gif);
 }
 
-.resort {
-    color: #5C7FA3;
-}
-
 header {
     background-image: url('images/sunset.jpg');
     background-color: #000033;
@@ -96,6 +92,7 @@ footer {
 
 .resort {
     font-weight: bold;
+    color: #5C7FA3;
 }
 
 #contact {
@@ -145,14 +142,38 @@ main {
     margin-left: 190px;
 }
 
-@media only screen and (max-width: 1024px) {
-    {
+@media only screen and (max-width: 37.5em) {
+    .header {
+        padding-top: 1em;
+    }
+    main {
+        padding: .1em 1em .1em 1em;
+        font-size: 90%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    nav {
+        padding: 0;
+    }
+    nav li a:link {
+        display: block;
+    }
+    nav ul li {
+        display: block;
+        margin: 0;
+        border-bottom: 2px solid #330000;
+    }
+    #homehero,
+    #yurthero,
+    #trailhero {
+        background-image: none;
+        height: 0;
+    }
+    .mobile {
         display: inline;
     }
-}
-
-@media only screen and (max-width: 37.5em) {
-    {
+    .desktop {
         display: none;
     }
 }
@@ -176,23 +197,31 @@ main {
         text-align: center;
         padding: .5em;
     }
-    nav li{
+    nav li {
         display: inline;
         padding: .25em .75em .25em .75em;
     }
-    #homehero{
+    #homehero {
         margin-left: 0;
         height: 200px;
     }
-    #yurthero{
+    #yurthero {
         margin-left: 0;
         height: 200px;
     }
-    #trailhero{
+    #trailhero {
         margin-left: 0;
         height: 200px;
     }
-    footer{
+    footer {
         margin-left: 0;
     }
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: inline;
 }
