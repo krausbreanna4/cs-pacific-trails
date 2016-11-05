@@ -81,15 +81,7 @@ header {
     padding-top: 15px;
 }
 
-footer {
-    font-size: 75%;
-    font-style: italic;
-    text-align: center;
-    font-family: Georgia, "times new roman", serif;
-    padding: 20px;
-    margin-left: 190px;
-    background-color: #FFFFFF;
-}
+
 
 .resort {
     font-weight: bold;
@@ -197,10 +189,66 @@ video, embed {
     padding-left: 20px;
 }
 
+#gallery{
+    height: 300px;
+    text-align: left;
+    color:#666666;
+    position: relative;
+    
+}
 
 
+#gallery ul{
+    width: 300px;
+    list-style-type: none;
+}
+#gallery ul a:hover span{
+    position: absolute; 
+    top: 16px; 
+    left: 320px; 
+    text-align: center;
+    opacity: 1;
+    color: #666666;
+}
+#gallery span{
+    position: absolute; 
+    left: -1000px; 
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
+#gallery li{
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#gallery a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-style: italic;
+} 
+#gallery figure{
+    position: absolute; 
+    left: 280px;
+    text-align: center;
+    opacity: .25;
+}
+#gallery img {
+    border-style:none;
+}
 
 
+footer {
+    clear: both;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "times new roman", serif;
+    padding: 20px;
+    margin-left: 190px;
+    background-color: #FFFFFF;
+    
+}
 
 
 
