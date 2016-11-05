@@ -341,4 +341,7 @@ footer {
     input [type="submit"]{
         margin-left: 0;
     }
+    #gallery {
+        display: none;
+    }
 }
