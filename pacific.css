@@ -45,6 +45,7 @@ nav ul a:hover {
 
 nav a {
     text-decoration: none;
+    transition: color 3s ease-out;
 }
 
 nav ul {
@@ -190,6 +191,18 @@ textarea {
 #submit {
     margin-left: 130px;
 }
+
+video, embed {
+    float: right;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 64em) {
