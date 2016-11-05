@@ -142,41 +142,55 @@ main {
     margin-left: 190px;
 }
 
-@media only screen and (max-width: 37.5em) {
-    .header {
-        padding-top: 1em;
-    }
-    main {
-        padding: .1em 1em .1em 1em;
-        font-size: 90%;
-    }
-    h1 {
-        font-size: 1.5em;
-    }
-    nav {
-        padding: 0;
-    }
-    nav li a:link {
-        display: block;
-    }
-    nav ul li {
-        display: block;
-        margin: 0;
-        border-bottom: 2px solid #330000;
-    }
-    #homehero,
-    #yurthero,
-    #trailhero {
-        background-image: none;
-        height: 0;
-    }
-    .mobile {
-        display: inline;
-    }
-    .desktop {
-        display: none;
-    }
+#mobile {
+    display: none;
 }
+
+#desktop {
+    display: inline;
+}
+table {
+    border: 1px solid #3399CC;
+    width: 80%;
+    border-spacing: 0;
+}
+th {
+    padding: 5px;
+    border: 1px solid #3399CC;
+}
+td {
+    padding: 5px;
+    border: 1px solid #3399CC;
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color:#F5FAFC;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding-right: 10px;
+}
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+#submit {
+    margin-left: 130px;
+}
+
 
 @media only screen and (max-width: 64em) {
     body {
@@ -218,32 +232,52 @@ main {
     }
 }
 
-#mobile {
-    display: none;
+#myEmail {
+    max-width: 35ch;
 }
 
-#desktop {
-    display: inline;
-}
-table {
-    border: 1px solid #3399CC;
-    width: 80%;
-    border-spacing: 0;
-}
-th {
-    padding: 5px;
-    border: 1px solid #3399CC;
-}
-td {
-    padding: 5px;
-    border: 1px solid #3399CC;
-    text-align: center;
-}
 
-.text {
-    text-align: left;
-}
 
-tr:nth-of-type(odd) {
-    background-color:#F5FAFC;
+
+@media only screen and (max-width: 37.5em) {
+    .header {
+        padding-top: 1em;
+    }
+    main {
+        padding: .1em 1em .1em 1em;
+        font-size: 90%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    nav {
+        padding: 0;
+    }
+    nav li a:link {
+        display: block;
+    }
+    nav ul li {
+        display: block;
+        margin: 0;
+        border-bottom: 2px solid #330000;
+    }
+    #homehero,
+    #yurthero,
+    #trailhero {
+        background-image: none;
+        height: 0;
+    }
+    .mobile {
+        display: inline;
+    }
+    .desktop {
+        display: none;
+    }
+    label {
+        float: none;
+        text-align: left;
+    }
+    input [type="submit"]{
+        margin-left: 0;
+    }
 }
